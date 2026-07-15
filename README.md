@@ -260,8 +260,9 @@ It helps others discover the project and supports my work.
 
 ## 👨‍💻 Author
 
-**Gourav Sharma**
+**Adarsh Sahal**
 
-**GitHub:** *Add your GitHub profile here*
+📧 Passionate Data Analyst | Excel | SQL | Power BI
 
-**LinkedIn:** *Add your LinkedIn profile here*
+- GitHub: https://github.com/Adarsh-tech21
+- LinkedIn: https://www.linkedin.com/in/adarsh-sahal
