@@ -183,25 +183,19 @@ Review high-cost shipping routes and identify opportunities for transportation a
 ## 📸 Dashboard Preview
 
 ### Overview
-
-![Overview](Screenshot/overview.png)
+<img src="./Screenshot/overview.png" alt="Overview Dashboard" width="100%">
 
 ### Supplier Risk Analysis
-
-![Supplier Risk](Screenshot/supplier-risk.png)
+<img src="./Screenshot/supplier-risk.png" alt="Supplier Risk Dashboard" width="100%">
 
 ### Inventory Analysis
-
-![Inventory](Screenshot/inventory.png)
+<img src="./Screenshot/inventory.png" alt="Inventory Dashboard" width="100%">
 
 ### Logistics Analysis
-
-![Logistics](Screenshot/logistics.png)
+<img src="./Screenshot/logistics.png" alt="Logistics Dashboard" width="100%">
 
 ### Supply Chain Insights
-
-![Supply Chain Insights](Screenshot/insights.png)
-
+<img src="./Screenshot/insights.png" alt="Supply Chain Insights Dashboard" width="100%">
 ## 📁 Project Structure
 
 Supply-Chain-Performance-Dashboard/
