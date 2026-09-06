@@ -182,20 +182,21 @@ Review high-cost shipping routes and identify opportunities for transportation a
 
 ## 📸 Dashboard Preview
 
+
 ### Overview
-<img src="./Screenshot/overview.png" alt="Overview Dashboard" width="100%">
+<img src="https://raw.githubusercontent.com/Adarsh-tech21/Supply-Chain-Performance-Dashboard/main/Screenshot/overview.png" width="100%">
 
 ### Supplier Risk Analysis
-<img src="./Screenshot/supplier-risk.png" alt="Supplier Risk Dashboard" width="100%">
+<img src="https://raw.githubusercontent.com/Adarsh-tech21/Supply-Chain-Performance-Dashboard/main/Screenshot/supplier-risk.png" width="100%">
 
 ### Inventory Analysis
-<img src="./Screenshot/inventory.png" alt="Inventory Dashboard" width="100%">
+<img src="https://raw.githubusercontent.com/Adarsh-tech21/Supply-Chain-Performance-Dashboard/main/Screenshot/inventory.png" width="100%">
 
 ### Logistics Analysis
-<img src="./Screenshot/logistics.png" alt="Logistics Dashboard" width="100%">
+<img src="https://raw.githubusercontent.com/Adarsh-tech21/Supply-Chain-Performance-Dashboard/main/Screenshot/logistics.png" width="100%">
 
 ### Supply Chain Insights
-<img src="./Screenshot/insights.png" alt="Supply Chain Insights Dashboard" width="100%">
+<img src="https://raw.githubusercontent.com/Adarsh-tech21/Supply-Chain-Performance-Dashboard/main/Screenshot/insights.png" width="100%">
 ## 📁 Project Structure
 
 Supply-Chain-Performance-Dashboard/
