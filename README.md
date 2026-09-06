@@ -1,268 +1,264 @@
-# 📊 Telecom Customer Analytics Dashboard (Microsoft Excel)
+# 📦 Supply Chain Performance Dashboard
 
-> An interactive Microsoft Excel dashboard built to analyze telecom customer demographics, revenue, customer behavior, and churn using Pivot Tables, Pivot Charts, Slicers, and KPI Cards.
+> An Excel-based Supply Chain Analytics Dashboard designed to evaluate supplier risk, inventory health, logistics performance, and delivery efficiency.
 
-![Dashboard Overview](Images/Dashboard.png)
+## 📌 Project Overview
 
----
+This project analyzes a large-scale supply chain logistics dataset to identify operational risks and performance trends across suppliers, inventory, shipping costs, lead times, and delivery performance.
 
-## 📖 Project Overview
+The raw data has been transformed into a structured Excel dashboard using Pivot Tables, Pivot Charts, KPIs, and business-focused analysis.
 
-Telecommunication companies generate massive amounts of customer data every day. This project transforms raw customer information into an interactive business intelligence dashboard that enables stakeholders to monitor customer demographics, revenue, churn, and regional performance in real time.
+The dashboard provides a consolidated view of supply chain performance and helps identify areas requiring operational improvement.
 
-The dashboard is fully interactive and allows users to filter insights using Excel slicers, making it easy to explore different customer segments without writing formulas or SQL queries.
+## 🎯 Business Objectives
+
+- Evaluate supplier reliability and risk exposure
+- Identify inventory availability issues
+- Analyze shipping cost patterns
+- Monitor average lead time
+- Evaluate delivery delay probability
+- Identify high-risk supply chain areas
+- Compare supplier, country, and product performance
+- Generate actionable business recommendations
+
+## 📂 Dataset Information
+
+| Attribute | Details |
+|---|---|
+| Dataset | Supply Chain Logistics Dataset |
+| Total Records | 113,097 |
+| Total Suppliers | 3,524 |
+| Total Countries | 94 |
+| Total Products | 1,000 |
+| Domain | Supply Chain & Logistics |
 
----
+### Key Data Fields
 
-# 🎯 Objectives
+- Supplier ID
+- Supplier Country
+- Supplier Reliability Score
+- Warehouse Inventory Level
+- Historical Demand
+- Shipping Costs
+- Lead Time
+- Delay Probability
+- Disruption Likelihood Score
+- Risk Classification
+- Route Risk Level
+- Customs Clearance Time
+- Delivery Time Deviation
 
-- Analyze customer demographics
-- Monitor customer churn and retention
-- Track business revenue
-- Compare male and female customer distribution
-- Identify top-performing cities
-- Analyze customer dependency patterns
-- Build an interactive dashboard using Microsoft Excel
+## 📊 Dashboard Modules
 
----
+### 1. Overview
 
-# 📂 Dataset Information
+Provides an executive-level summary of overall supply chain performance.
 
-The dashboard uses a telecom customer dataset containing **7,043 customer records**.
+**Includes:**
+- Total Records
+- Average Supplier Reliability
+- Average Lead Time
+- Average Delay Probability
+- Total Shipping Cost
+- High-Risk Records
+- Risk Distribution
+- Country-wise logistics analysis
 
-### Dataset Features
+### 2. Supplier Risk Analysis
 
-| Category | Attributes |
-|-----------|------------|
-| Customer Information | Customer ID, Gender, Age |
-| Location | City, Zip Code, Latitude, Longitude |
-| Family Details | Married, Dependents, Referrals |
-| Services | Phone Service, Internet Service, Internet Type |
-| Subscription | Contract, Offer, Tenure |
-| Billing | Monthly Charge, Total Charges, Total Revenue |
-| Payment | Paperless Billing, Payment Method |
-| Customer Status | Stayed, Joined, Churned |
-| Churn Details | Churn Category, Churn Reason |
+Focuses on supplier reliability and supply chain risk exposure.
 
----
+**Includes:**
+- Risk Level Distribution
+- Bottom 10 Suppliers by Reliability
+- Delivery Delay Probability
+- High-Risk Records
 
-# 📊 Dashboard Overview
+### 3. Inventory Analysis
 
-The dashboard consists of multiple analytical sections designed to provide a complete overview of customer behavior.
+Evaluates inventory availability and demand conditions.
 
----
+**Includes:**
+- Inventory Level Distribution
+- Demand vs Inventory
+- Country-wise Average Inventory
+- Product-wise Average Inventory
+- Very Low Inventory Records
 
-# 📌 KPI Dashboard
+### 4. Logistics Analysis
 
-Displays the most important business metrics at a glance.
+Evaluates transportation costs and delivery performance.
 
-### KPIs Included
+**Includes:**
+- Shipping Costs
+- Average Lead Time
+- Delivery Delay Probability
+- Country-wise Logistics Performance
 
-- 👥 Total Customers
-- 👨 Male Customers
-- 👩 Female Customers
-- 💰 Total Revenue
-- 💍 Married Customers
-- 🧍 Unmarried Customers
+### 5. Supply Chain Insights
 
-### Screenshot
+Summarizes the major findings from the analysis and provides business-focused recommendations.
 
-![KPI Cards](Images/Kpi_cards.png)
+## 📈 Key Performance Indicators
 
----
+| KPI | Value |
+|---|---:|
+| Total Records | 113,097 |
+| Avg. Supplier Reliability | 48.46% |
+| Avg. Lead Time | 5.43 Days |
+| Avg. Delay Probability | 69.69% |
+| Avg. Inventory Level | 300.38 |
+| Avg. Historical Demand | 6,019.93 |
+| Very Low Inventory Records | 60,673 |
+| High Risk Records | 84,368 |
+| Total Shipping Cost | 51.99M |
 
-# 🎛 Interactive Slicers
+## 🔍 Business Questions Answered
 
-The dashboard provides dynamic filtering through Excel slicers.
+- Which suppliers have the lowest reliability?
+- How significant is the high-risk supplier exposure?
+- Which countries have higher shipping costs?
+- Which countries have longer average lead times?
+- Where is delivery delay probability highest?
+- How does historical demand compare with inventory levels?
+- Which countries and products have higher inventory levels?
+- Where should supply chain teams prioritize corrective action?
 
-Users can instantly filter the dashboard using:
+## 💡 Key Insights
 
-- Gender
-- Customer Status
-- City
+### Supplier Reliability
 
-### Screenshot
+Average supplier reliability is **48.46%**, indicating the need for stronger supplier monitoring and performance management.
 
-![Slicers](Images/Slicers.png)
+### Delivery Performance
 
----
+Average delivery delay probability is **69.69%**, highlighting a significant delivery performance risk.
 
-# 👥 Customer Age Distribution
+### Inventory Risk
 
-This visualization shows the distribution of customers across different age groups, helping identify the largest customer segments.
+**60,673 records** fall under the very low inventory classification, indicating potential inventory availability concerns.
 
-### Insights
+### Demand vs Inventory
 
-- Young Adult Customers
-- Middle Age Customers
-- Senior Customers
+Average historical demand is **6,019.93**, considerably higher than the average inventory level of **300.38**.
 
-### Screenshot
+### High-Risk Exposure
 
-![Age Group Analysis](Images/Age_group.png)
+The dataset contains **84,368 high-risk records**, highlighting substantial exposure to supply chain risk.
 
----
+### Logistics Cost
 
-# 👨‍👩‍👧 Number of Dependents
+Total shipping costs are approximately **51.99M**, creating an opportunity to review high-cost routes and transportation operations.
 
-Shows how customers are distributed based on the number of dependents.
+## 💼 Business Recommendations
 
-This analysis helps understand household size and customer family demographics.
+### 1. Strengthen Supplier Monitoring
 
-### Screenshot
+Closely monitor low-reliability suppliers and establish supplier performance improvement measures.
 
-![Dependents](Images/Dependents.png)
+### 2. Prioritize High-Delay Areas
 
----
+Focus corrective actions on suppliers and routes associated with higher delivery delay probability.
 
-# 🔄 Customer Status Analysis
+### 3. Improve Inventory Planning
 
-A pie chart showing customer retention and churn.
+Maintain appropriate safety stock levels to reduce the risk of inventory shortages.
 
-The dashboard categorizes customers into:
+### 4. Optimize Logistics Costs
 
-- Stayed
-- Joined
-- Churned
+Review high-cost shipping routes and identify opportunities for transportation and logistics optimization.
 
-This visualization provides a quick understanding of customer retention performance.
-
-### Screenshot
-
-![Customer Status](Images/Customer_status.png)
-
----
-
-# 🏙 Top 10 Cities Performance
-
-A combination chart displaying:
-
-- Revenue generated by city
-- Customer count by city
-
-This helps identify the most profitable customer locations.
-
-### Screenshot
-
-![Top Cities](Images/Top_cities.png)
-
----
-
-# 📈 Business Questions Answered
-
-This dashboard helps answer questions such as:
-
-- How many customers does the company currently have?
-- What is the total business revenue?
-- Which gender has more customers?
-- How many customers are married?
-- What percentage of customers have churned?
-- Which cities generate the highest revenue?
-- Which age group contributes the largest customer base?
-- How many customers have dependents?
-
----
-
-# 🛠 Tools & Technologies
+## 🛠️ Tools & Technologies
 
 - Microsoft Excel
 - Pivot Tables
 - Pivot Charts
-- Slicers
-- KPI Cards
-- Conditional Formatting
+- Excel Formulas
 - Data Cleaning
+- Data Analysis
 - Data Visualization
-
----
-
-# 📁 Project Structure
-
-```
-Telecom-Customer-Analytics-Dashboard/
-│
-├── Telecom Dashboard.xlsx
-├── README.md
-├── Dataset.csv
-│
-├── images/
-│   ├── dashboard.png
-│   ├── kpi_cards.png
-│   ├── slicers.png
-│   ├── age_group.png
-│   ├── dependents.png
-│   ├── customer_status.png
-│   ├── top_cities.png
-│   └── dataset_preview.png
-│
-└── LICENSE
-```
-
----
-
-# 📋 Sample Dataset
-
-| Customer ID | Gender | Age | Married | City | Contract | Monthly Charge | Total Revenue | Customer Status |
-|-------------|--------|-----|----------|------|-----------|----------------|---------------|-----------------|
-| 0002-ORFBO | Female | 37 | Yes | Frazier Park | One Year | 65.60 | 974.81 | Stayed |
-| 0003-MKNFE | Male | 46 | No | Glendale | Month-to-Month | -4.00 | 610.28 | Stayed |
-| 0004-TLHLJ | Male | 50 | No | Costa Mesa | Month-to-Month | 73.90 | 415.45 | Churned |
-| 0011-IGKFF | Male | 78 | Yes | Martinez | Month-to-Month | 98.00 | 1599.51 | Churned |
-
----
-
-# 📌 Key Insights
-
-- Total Customers: **7,043**
-- Total Revenue: **$21.37 Million**
-- Nearly equal distribution between male and female customers.
-- Majority of customers have **no dependents**.
-- Most customers are retained, while a smaller percentage have churned.
-- Los Angeles and San Diego contribute the highest revenue among the top cities.
-
----
-
-# 💡 Skills Demonstrated
-
 - Dashboard Design
-- Business Intelligence
-- Interactive Reporting
-- Data Cleaning
-- Data Visualization
-- Pivot Tables
-- Pivot Charts
-- Slicer Integration
-- KPI Development
-- Analytical Thinking
+- Supply Chain Analytics
 
----
+## 📸 Dashboard Preview
 
-# 🚀 Future Enhancements
+### Overview
 
-- Power Query integration
-- Power Pivot data model
-- Dynamic timeline filters
-- Customer Lifetime Value (CLV) analysis
-- Monthly revenue trend analysis
-- Churn prediction using Machine Learning
-- Geographic heat maps
-- Automated dashboard refresh
+![Overview](Screenshot/overview.png)
 
----
+### Supplier Risk Analysis
 
-# ⭐ If you like this project
+![Supplier Risk](Screenshot/supplier-risk.png)
 
-If you found this project useful or learned something from it, consider giving the repository a **Star ⭐**.
+### Inventory Analysis
 
-It helps others discover the project and supports my work.
+![Inventory](Screenshot/inventory.png)
 
----
+### Logistics Analysis
+
+![Logistics](Screenshot/logistics.png)
+
+### Supply Chain Insights
+
+![Supply Chain Insights](Screenshot/insights.png)
+
+## 📁 Project Structure
+
+Supply-Chain-Performance-Dashboard/
+
+├── README.md
+
+├── Supply_Chain_Dashboard.xlsm
+
+└── Screenshot/
+
+    ├── overview.png
+
+    ├── supplier-risk.png
+
+    ├── inventory.png
+
+    ├── logistics.png
+
+    └── insights.png
+
+## 🚀 How to Use
+
+1. Download the Excel dashboard from this repository.
+2. Open the `.xlsm` file using Microsoft Excel.
+3. Navigate through the dashboard sections.
+4. Review the KPIs, charts, supplier risk, inventory, and logistics analysis.
+5. Use the insights and recommendations to understand potential supply chain improvement opportunities.
+
+## 📌 Project Highlights
+
+- Analyzed **113K+ supply chain records**
+- Evaluated **3,524 suppliers**
+- Covered **94 countries**
+- Analyzed supplier risk, inventory, and logistics performance
+- Built a multi-page Excel dashboard
+- Created KPI-driven visualizations
+- Converted analytical findings into business recommendations
+
+## 🔮 Future Enhancements
+
+- Power BI implementation
+- Automated data refresh
+- Advanced supplier risk scoring
+- Predictive demand analysis
+- Automated supply chain alerts
+- Advanced logistics optimization analysis
 
 ## 👨‍💻 Author
 
-**Adarsh Sahal**
+### Adarsh Sahal
 
-📧 Passionate Data Analyst | Excel | SQL | Power BI
+**Data Analytics | Microsoft Excel | SQL | Power BI**
 
-- GitHub: https://github.com/Adarsh-tech21
-- LinkedIn: https://www.linkedin.com/in/adarsh-sahal
+**GitHub:** PASTE_YOUR_GITHUB_PROFILE_LINK_HERE
+
+**LinkedIn:** PASTE_YOUR_LINKEDIN_PROFILE_LINK_HERE
+
+---
+
+⭐ If you find this project useful, feel free to explore the dashboard and analysis.
